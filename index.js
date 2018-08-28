@@ -1,10 +1,6 @@
 module.exports = {
   extends: [
-    'standard',
-    'plugin:ava/recommended'
-  ],
-  plugins: [
-    'ava'
+    require.resolve('eslint-config-standard')
   ],
   rules: {
     'no-warning-comments': 'warn'
