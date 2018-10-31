@@ -40,7 +40,6 @@ Overwrite any rule from this config:
 ```
 
 eslint has an extensive [list of rules](https://eslint.org/docs/rules/). Additional rules are provided by the following plugins:
-- [`eslint-plugin-ava`](https://github.com/avajs/eslint-plugin-ava)
 - [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import)
 - [`eslint-plugin-node`](https://github.com/mysticatea/eslint-plugin-node)
 - [`eslint-plugin-promise`](https://github.com/xjamundx/eslint-plugin-promise)
