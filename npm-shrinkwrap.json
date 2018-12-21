@@ -21,15 +21,15 @@
       }
     },
     "acorn": {
-      "version": "6.0.2",
+      "version": "6.0.4",
       "dev": true
     },
     "acorn-jsx": {
-      "version": "5.0.0",
+      "version": "5.0.1",
       "dev": true
     },
     "ajv": {
-      "version": "6.5.4",
+      "version": "6.6.2",
       "dev": true,
       "requires": {
         "fast-deep-equal": "^2.0.1",
@@ -60,19 +60,8 @@
         "sprintf-js": "~1.0.2"
       }
     },
-    "array-union": {
-      "version": "1.0.2",
-      "dev": true,
-      "requires": {
-        "array-uniq": "^1.0.1"
-      }
-    },
-    "array-uniq": {
-      "version": "1.0.3",
-      "dev": true
-    },
-    "arrify": {
-      "version": "1.0.1",
+    "astral-regex": {
+      "version": "1.0.0",
       "dev": true
     },
     "balanced-match": {
@@ -165,19 +154,6 @@
       "version": "0.1.3",
       "dev": true
     },
-    "del": {
-      "version": "2.2.2",
-      "dev": true,
-      "requires": {
-        "globby": "^5.0.0",
-        "is-path-cwd": "^1.0.0",
-        "is-path-in-cwd": "^1.0.0",
-        "object-assign": "^4.0.1",
-        "pify": "^2.0.0",
-        "pinkie-promise": "^2.0.0",
-        "rimraf": "^2.2.8"
-      }
-    },
     "doctrine": {
       "version": "1.5.0",
       "requires": {
@@ -196,7 +172,7 @@
       "dev": true
     },
     "eslint": {
-      "version": "5.8.0",
+      "version": "5.10.0",
       "dev": true,
       "requires": {
         "@babel/code-frame": "^7.0.0",
@@ -208,7 +184,7 @@
         "eslint-scope": "^4.0.0",
         "eslint-utils": "^1.3.1",
         "eslint-visitor-keys": "^1.0.0",
-        "espree": "^4.0.0",
+        "espree": "^5.0.0",
         "esquery": "^1.0.1",
         "esutils": "^2.0.2",
         "file-entry-cache": "^2.0.0",
@@ -218,7 +194,6 @@
         "ignore": "^4.0.6",
         "imurmurhash": "^0.1.4",
         "inquirer": "^6.1.0",
-        "is-resolvable": "^1.1.0",
         "js-yaml": "^3.12.0",
         "json-stable-stringify-without-jsonify": "^1.0.1",
         "levn": "^0.3.0",
@@ -277,10 +252,10 @@
       }
     },
     "eslint-plugin-es": {
-      "version": "1.3.1",
+      "version": "1.4.0",
       "requires": {
         "eslint-utils": "^1.3.0",
-        "regexpp": "^2.0.0"
+        "regexpp": "^2.0.1"
       }
     },
     "eslint-plugin-import": {
@@ -310,7 +285,7 @@
       },
       "dependencies": {
         "ignore": {
-          "version": "5.0.3"
+          "version": "5.0.4"
         }
       }
     },
@@ -336,7 +311,7 @@
       "dev": true
     },
     "espree": {
-      "version": "4.1.0",
+      "version": "5.0.0",
       "dev": true,
       "requires": {
         "acorn": "^6.0.2",
@@ -412,12 +387,12 @@
       }
     },
     "flat-cache": {
-      "version": "1.3.0",
+      "version": "1.3.4",
       "dev": true,
       "requires": {
         "circular-json": "^0.3.1",
-        "del": "^2.0.2",
         "graceful-fs": "^4.1.2",
+        "rimraf": "~2.6.2",
         "write": "^0.2.1"
       }
     },
@@ -445,23 +420,11 @@
       }
     },
     "globals": {
-      "version": "11.8.0",
+      "version": "11.9.0",
       "dev": true
     },
-    "globby": {
-      "version": "5.0.0",
-      "dev": true,
-      "requires": {
-        "array-union": "^1.0.1",
-        "arrify": "^1.0.0",
-        "glob": "^7.0.3",
-        "object-assign": "^4.0.1",
-        "pify": "^2.0.0",
-        "pinkie-promise": "^2.0.0"
-      }
-    },
     "graceful-fs": {
-      "version": "4.1.11"
+      "version": "4.1.15"
     },
     "has": {
       "version": "1.0.3",
@@ -504,7 +467,7 @@
       "dev": true
     },
     "inquirer": {
-      "version": "6.2.0",
+      "version": "6.2.1",
       "dev": true,
       "requires": {
         "ansi-escapes": "^3.0.0",
@@ -518,8 +481,21 @@
         "run-async": "^2.2.0",
         "rxjs": "^6.1.0",
         "string-width": "^2.1.0",
-        "strip-ansi": "^4.0.0",
+        "strip-ansi": "^5.0.0",
         "through": "^2.3.6"
+      },
+      "dependencies": {
+        "ansi-regex": {
+          "version": "4.0.0",
+          "dev": true
+        },
+        "strip-ansi": {
+          "version": "5.0.0",
+          "dev": true,
+          "requires": {
+            "ansi-regex": "^4.0.0"
+          }
+        }
       }
     },
     "is-arrayish": {
@@ -535,30 +511,8 @@
       "version": "2.0.0",
       "dev": true
     },
-    "is-path-cwd": {
-      "version": "1.0.0",
-      "dev": true
-    },
-    "is-path-in-cwd": {
-      "version": "1.0.1",
-      "dev": true,
-      "requires": {
-        "is-path-inside": "^1.0.0"
-      }
-    },
-    "is-path-inside": {
-      "version": "1.0.1",
-      "dev": true,
-      "requires": {
-        "path-is-inside": "^1.0.1"
-      }
-    },
     "is-promise": {
       "version": "2.1.0",
-      "dev": true
-    },
-    "is-resolvable": {
-      "version": "1.1.0",
       "dev": true
     },
     "isarray": {
@@ -783,7 +737,7 @@
       "dev": true
     },
     "progress": {
-      "version": "2.0.1",
+      "version": "2.0.3",
       "dev": true
     },
     "punycode": {
@@ -817,9 +771,9 @@
       }
     },
     "resolve": {
-      "version": "1.8.1",
+      "version": "1.9.0",
       "requires": {
-        "path-parse": "^1.0.5"
+        "path-parse": "^1.0.6"
       }
     },
     "resolve-from": {
@@ -878,14 +832,16 @@
       "dev": true
     },
     "slice-ansi": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "dev": true,
       "requires": {
+        "ansi-styles": "^3.2.0",
+        "astral-regex": "^1.0.0",
         "is-fullwidth-code-point": "^2.0.0"
       }
     },
     "spdx-correct": {
-      "version": "3.0.2",
+      "version": "3.1.0",
       "requires": {
         "spdx-expression-parse": "^3.0.0",
         "spdx-license-ids": "^3.0.0"
@@ -902,7 +858,7 @@
       }
     },
     "spdx-license-ids": {
-      "version": "3.0.1"
+      "version": "3.0.3"
     },
     "sprintf-js": {
       "version": "1.0.3",
@@ -938,12 +894,12 @@
       }
     },
     "table": {
-      "version": "5.1.0",
+      "version": "5.1.1",
       "dev": true,
       "requires": {
-        "ajv": "^6.5.3",
-        "lodash": "^4.17.10",
-        "slice-ansi": "1.0.0",
+        "ajv": "^6.6.1",
+        "lodash": "^4.17.11",
+        "slice-ansi": "2.0.0",
         "string-width": "^2.1.1"
       }
     },
