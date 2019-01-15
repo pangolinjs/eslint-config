@@ -8,7 +8,7 @@ action "Install" {
   args = "install"
 }
 
-action "Lint JavaScript" {
+action "Lint" {
   uses = "actions/npm@master"
   needs = ["Install"]
   args = "run lint"
