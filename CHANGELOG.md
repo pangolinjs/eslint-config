@@ -1,6 +1,14 @@
 # Changelog
 
 
+## 2.1.0
+2019-01-15
+
+- Removed npm shrinkwrap
+- Updated dependencies
+
+
+
 
 ## 2.0.0
 2018-08-28
