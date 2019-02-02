@@ -1,12 +1,20 @@
 # Changelog
 
 
+
+## 2.2.0
+2019-02-02
+
+- Updated dependencies
+- Added browser env
+
+
+
 ## 2.1.0
 2019-01-15
 
 - Removed npm shrinkwrap
 - Updated dependencies
-
 
 
 
