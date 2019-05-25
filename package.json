@@ -10,11 +10,11 @@
   },
   "author": {
     "name": "Fynn Becker",
-    "email": "info@fynn-becker.de"
+    "email": "post@fynn.be"
   },
   "bugs": {
     "url": "https://github.com/pangolinjs/eslint-config/issues",
-    "email": "info@fynn-becker.de"
+    "email": "post@fynn.be"
   },
   "keywords": [
     "eslint-config",
@@ -22,7 +22,8 @@
     "pangolin"
   ],
   "scripts": {
-    "lint": "eslint --config index.js -f codeframe *.js"
+    "lint": "eslint --config index.js -f codeframe *.js",
+    "release": "standard-version"
   },
   "main": "index.js",
   "files": [
@@ -31,13 +32,14 @@
   ],
   "dependencies": {
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.13.0"
+    "eslint": "^5.13.0",
+    "standard-version": "^6.0.1"
   },
   "peerDependencies": {
     "eslint": "^5.10.0"
