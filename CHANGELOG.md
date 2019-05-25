@@ -1,5 +1,14 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.2.1](https://github.com/pangolinjs/eslint-config/compare/v2.2.0...v2.2.1) (2019-05-25)
+
+
+### Bug Fixes
+
+* Don't include yarn.lock in distribution ([e83a8df](https://github.com/pangolinjs/eslint-config/commit/e83a8df))
+
 
 
 ## 2.2.0
