@@ -27,8 +27,7 @@
   },
   "main": "index.js",
   "files": [
-    "index.js",
-    "yarn.lock"
+    "index.js"
   ],
   "dependencies": {
     "eslint-config-standard": "^12.0.0",
