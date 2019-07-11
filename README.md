@@ -22,7 +22,9 @@ either as a JSON or a JavaScript file:
 
 ```json
 {
-  "extends": "@pangolin/eslint-config"
+  "extends": [
+    "@pangolin"
+  ]
 }
 ```
 
@@ -30,7 +32,9 @@ either as a JSON or a JavaScript file:
 
 ```js
 module.exports = {
-  extends: '@pangolin/eslint-config'
+  extends: [
+    '@pangolin'
+  ]
 }
 ```
 
@@ -40,7 +44,9 @@ Overwrite any rule from this config:
 
 ```json
 {
-  "extends": "@pangolin/eslint-config",
+  "extends": [
+    "@pangolin"
+  ],
   "rules": {
     "no-warning-comments": "error"
   }
