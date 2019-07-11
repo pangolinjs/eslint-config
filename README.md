@@ -1,24 +1,24 @@
-# <img alt="" src="https://cdn.rawgit.com/pangolinjs/brand/master/icon/icon.svg" width="24"> Pangolin eslint Config
+# <img alt="" src="https://cdn.rawgit.com/pangolinjs/brand/master/icon/icon.svg" width="24"> Pangolin ESLint Config
 
 [![NPM version][npm-image]][npm-url]
 [![Dependencies][dependencies-image]][npm-url]
 [![JavaScript Standard Style][standard-image]][standard-url]
 
-Shareable eslint configuration for Pangolin based on [eslint-config-standard](https://github.com/standard/eslint-config-standard).
-
+Shareable [ESLint](https://eslint.org/) configuration for Pangolin based on
+[eslint-config-standard](https://github.com/standard/eslint-config-standard).
 
 ## Installation
 
 ```bash
-yarn add -D @pangolin/eslint-config
-# or
-npm install @pangolin/eslint-config --save-dev
+npm install --save-dev @pangolin/eslint-config
 ```
-
 
 ## Usage
 
-Create an [eslint configuration](https://eslint.org/docs/user-guide/configuring) with the following content:
+Create an [ESLint configuration](https://eslint.org/docs/user-guide/configuring)
+either as a JSON or a JavaScript file:
+
+### .eslintrc.json
 
 ```json
 {
@@ -26,7 +26,15 @@ Create an [eslint configuration](https://eslint.org/docs/user-guide/configuring)
 }
 ```
 
-### Extending
+### .eslintrc.js
+
+```js
+module.exports = {
+  extends: '@pangolin/eslint-config'
+}
+```
+
+### Modifying config
 
 Overwrite any rule from this config:
 
@@ -39,19 +47,20 @@ Overwrite any rule from this config:
 }
 ```
 
-eslint has an extensive [list of rules](https://eslint.org/docs/rules/). Additional rules are provided by the following plugins:
+ESLint has an extensive [list of rules](https://eslint.org/docs/rules/).
+Additional rules are provided by the following plugins:
+
 - [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import)
 - [`eslint-plugin-node`](https://github.com/mysticatea/eslint-plugin-node)
 - [`eslint-plugin-promise`](https://github.com/xjamundx/eslint-plugin-promise)
 - [`eslint-plugin-standard`](https://github.com/standard/eslint-plugin-standard)
 
-
 ## Configured rules
 
-This config sets a few extra rules in addition to the ones from `eslint-config-standard` and `eslint-plugin-ava/recommended`:
+This config sets a few extra rules in addition to the ones from `eslint-config-standard`:
 
-- [`no-warning-comments`](https://eslint.org/docs/rules/no-warning-comments): Highlight comments starting with `TODO:`, and `FIXME:` (warning).
-
+- [`no-warning-comments`](https://eslint.org/docs/rules/no-warning-comments):
+  Highlight comments starting with `TODO:`, and `FIXME:` (warning).
 
 [npm-image]: https://img.shields.io/npm/v/@pangolin/eslint-config.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/@pangolin/eslint-config
