@@ -18,7 +18,7 @@ npm install --save-dev @pangolin/eslint-config
 Create an [ESLint configuration](https://eslint.org/docs/user-guide/configuring)
 either as a JSON or a JavaScript file:
 
-### .eslintrc.json
+### `.eslintrc.json`
 
 ```json
 {
@@ -28,7 +28,7 @@ either as a JSON or a JavaScript file:
 }
 ```
 
-### .eslintrc.js
+### `.eslintrc.js`
 
 ```js
 module.exports = {
