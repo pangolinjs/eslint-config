@@ -25,9 +25,9 @@
     "lint": "eslint --config index.js -f codeframe *.js",
     "release": "standard-version"
   },
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "files": [
-    "index.js"
+    ".eslintrc.js"
   ],
   "dependencies": {
     "eslint-config-standard": "^13.0.0",
