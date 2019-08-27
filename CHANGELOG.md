@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/pangolinjs/eslint-config/compare/v2.3.0...v3.0.0) (2019-08-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* Bump JavaScript Standard Style to v14
+
+* Update dependencies ([b5627e4](https://github.com/pangolinjs/eslint-config/commit/b5627e4))
+
 ## [2.3.0](https://github.com/pangolinjs/eslint-config/compare/v2.2.1...v2.3.0) (2019-07-11)
 
 
