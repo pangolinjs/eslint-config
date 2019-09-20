@@ -72,7 +72,7 @@ This config sets a few extra rules in addition to the ones from `eslint-config-s
 [npm-url]: https://www.npmjs.com/package/@pangolinjs/eslint-config
 
 [dependencies-image]: https://img.shields.io/david/pangolinjs/eslint-config.svg?style=flat-square
-[dependencies-url]: https://www.npmjs.com/package/@pangolin/eslint-config?activeTab=dependencies
+[dependencies-url]: https://www.npmjs.com/package/@pangolinjs/eslint-config?activeTab=dependencies
 
 [standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-url]: https://standardjs.com
