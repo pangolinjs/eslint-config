@@ -1,16 +1,16 @@
-# <img alt="" src="https://cdn.rawgit.com/pangolinjs/brand/master/icon/icon.svg" width="24"> Pangolin ESLint Config
+# <img alt="" src="https://cdn.jsdelivr.net/gh/pangolinjs/brand@master/icon/icon.svg" width="24"> Pangolin.js ESLint Config
 
 [![NPM version][npm-image]][npm-url]
-[![Dependencies][dependencies-image]][npm-url]
+[![Dependencies][dependencies-image]][dependencies-url]
 [![JavaScript Standard Style][standard-image]][standard-url]
 
-Shareable [ESLint](https://eslint.org/) configuration for Pangolin based on
+Shareable [ESLint](https://eslint.org/) configuration for Pangolin.js based on
 [eslint-config-standard](https://github.com/standard/eslint-config-standard).
 
 ## Installation
 
 ```bash
-npm install --save-dev @pangolin/eslint-config
+npm install --save-dev @pangolinjs/eslint-config
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ either as a JSON or a JavaScript file:
 ```json
 {
   "extends": [
-    "@pangolin"
+    "@pangolinjs"
   ]
 }
 ```
@@ -33,7 +33,7 @@ either as a JSON or a JavaScript file:
 ```js
 module.exports = {
   extends: [
-    '@pangolin'
+    '@pangolinjs'
   ]
 }
 ```
@@ -45,7 +45,7 @@ Overwrite any rule from this config:
 ```json
 {
   "extends": [
-    "@pangolin"
+    "@pangolinjs"
   ],
   "rules": {
     "no-warning-comments": "error"
@@ -68,10 +68,11 @@ This config sets a few extra rules in addition to the ones from `eslint-config-s
 - [`no-warning-comments`](https://eslint.org/docs/rules/no-warning-comments):
   Highlight comments starting with `TODO:`, and `FIXME:` (warning).
 
-[npm-image]: https://img.shields.io/npm/v/@pangolin/eslint-config.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@pangolin/eslint-config
+[npm-image]: https://img.shields.io/npm/v/@pangolinjs/eslint-config.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@pangolinjs/eslint-config
 
 [dependencies-image]: https://img.shields.io/david/pangolinjs/eslint-config.svg?style=flat-square
+[dependencies-url]: https://www.npmjs.com/package/@pangolin/eslint-config?activeTab=dependencies
 
 [standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-url]: https://standardjs.com

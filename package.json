@@ -1,7 +1,7 @@
 {
-  "name": "@pangolin/eslint-config",
+  "name": "@pangolinjs/eslint-config",
   "version": "3.0.0",
-  "description": "Shareable eslint config for Pangolin",
+  "description": "Shareable eslint config for Pangolin.js",
   "license": "MIT",
   "homepage": "https://github.com/pangolinjs/eslint-config",
   "repository": {
@@ -19,10 +19,13 @@
   "keywords": [
     "eslint-config",
     "eslint",
-    "pangolin"
+    "pangolinjs"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "lint": "eslint -f codeframe --ignore-pattern !.eslintrc.js *.js",
+    "lint": "eslint -f codeframe --ignore-pattern !.eslintrc.js '*.js'",
     "release": "standard-version"
   },
   "main": ".eslintrc.js",
