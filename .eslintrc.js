@@ -6,6 +6,7 @@ module.exports = {
     browser: true
   },
   rules: {
-    'no-warning-comments': 'warn'
+    'no-warning-comments': 'warn',
+    'quotes': ['error', 'single', { allowTemplateLiterals: true }]
   }
 }
