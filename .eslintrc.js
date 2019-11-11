@@ -7,6 +7,6 @@ module.exports = {
   },
   rules: {
     'no-warning-comments': 'warn',
-    'quotes': ['error', 'single', { allowTemplateLiterals: true }]
+    quotes: ['error', 'single', { allowTemplateLiterals: true }]
   }
 }
