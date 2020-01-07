@@ -25,7 +25,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint -f codeframe --ignore-pattern !.eslintrc.js '*.js'",
+    "lint": "eslint --cache --format codeframe --ignore-pattern !.eslintrc.js .",
     "release": "standard-version"
   },
   "main": ".eslintrc.js",
