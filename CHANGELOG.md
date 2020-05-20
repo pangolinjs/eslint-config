@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/pangolinjs/eslint-config/compare/v3.2.0...v4.0.0) (2020-05-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Move dependencies to peerDependencies. This allows independent dependency updates for the package consumer. But it requires manual installation of these peers.
+
+### Features
+
+* Switch to Hippocratic License ([c4d8f0b](https://github.com/pangolinjs/eslint-config/commit/c4d8f0b0b4c9da8044762fd404a68fc8e10e1d87))
+
+
+* Make dependencies peers ([9d6473f](https://github.com/pangolinjs/eslint-config/commit/9d6473fd5fdbdde23f5e3df3028338143c5b5dcc))
+
 ## [3.2.0](https://github.com/pangolinjs/eslint-config/compare/v3.1.3...v3.2.0) (2020-04-28)
 
 
