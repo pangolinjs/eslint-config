@@ -1,7 +1,7 @@
 {
   "name": "@pangolinjs/eslint-config",
   "version": "3.2.0",
-  "description": "Shareable eslint config for Pangolin.js",
+  "description": "Shareable ESLint config for Pangolin.js",
   "license": "MIT",
   "homepage": "https://github.com/pangolinjs/eslint-config",
   "repository": {
@@ -25,12 +25,12 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint --cache --format codeframe --ignore-pattern !.eslintrc.js .",
+    "lint": "eslint --cache --format codeframe .",
     "release": "standard-version"
   },
-  "main": ".eslintrc.js",
+  "main": "index.js",
   "files": [
-    ".eslintrc.js"
+    "index.js"
   ],
   "dependencies": {
     "babel-eslint": "^10.1.0",
