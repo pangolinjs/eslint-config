@@ -2,7 +2,7 @@
   "name": "@pangolinjs/eslint-config",
   "version": "3.2.0",
   "description": "Shareable ESLint config for Pangolin.js",
-  "license": "MIT",
+  "license": "Hippocratic License 2.1",
   "homepage": "https://github.com/pangolinjs/eslint-config",
   "repository": {
     "type": "git",
