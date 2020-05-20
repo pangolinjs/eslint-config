@@ -4,15 +4,27 @@ Shareable [ESLint](https://eslint.org) configuration for Pangolin.js based on [e
 
 ## Installation
 
+Install the configuration and all peer dependencies with one command:
+
 ```bash
-npm install --save-dev @pangolinjs/eslint-config eslint babel-eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+npm install --save-dev \
+  @pangolinjs/eslint-config \
+  eslint \
+  babel-eslint \
+  eslint-config-standard \
+  eslint-plugin-import \
+  eslint-plugin-node \
+  eslint-plugin-promise \
+  eslint-plugin-standard
 ```
 
 ## Usage
 
+### Create a config
+
 Create an [ESLint configuration](https://eslint.org/docs/user-guide/configuring) either as a JSON or a JavaScript file:
 
-### `.eslintrc.json`
+#### `.eslintrc.json`
 
 ```json
 {
@@ -22,7 +34,7 @@ Create an [ESLint configuration](https://eslint.org/docs/user-guide/configuring)
 }
 ```
 
-### `.eslintrc.js`
+#### `.eslintrc.js`
 
 ```js
 module.exports = {
@@ -32,9 +44,11 @@ module.exports = {
 }
 ```
 
-### Modifying config
+### Modifying config and rules
 
-Overwrite rules from this config:
+Overwrite rules from the default config:
+
+#### JSON configuration file
 
 ```json
 {
@@ -47,9 +61,22 @@ Overwrite rules from this config:
 }
 ```
 
+#### JavaScript configuration file
+
+```js
+module.exports = {
+  extends: [
+    '@pangolinjs'
+  ],
+  rules: {
+    'no-warning-comments': 'error'
+  }
+}
+```
+
 ESLint has an extensive [list of rules](https://eslint.org/docs/rules/). Additional rules are provided by the following plugins:
 
-- [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import)
-- [`eslint-plugin-node`](https://github.com/mysticatea/eslint-plugin-node)
-- [`eslint-plugin-promise`](https://github.com/xjamundx/eslint-plugin-promise)
-- [`eslint-plugin-standard`](https://github.com/standard/eslint-plugin-standard)
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+- [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
+- [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
+- [eslint-plugin-standard](https://github.com/standard/eslint-plugin-standard)
