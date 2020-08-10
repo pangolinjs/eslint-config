@@ -1,4 +1,4 @@
-# <img alt="" src="https://cdn.jsdelivr.net/gh/pangolinjs/brand/icon/icon.svg" width="24"> Pangolin.js ESLint Config
+# <img alt="" src="https://cdn.jsdelivr.net/gh/pangolinjs/brand@main/icon/icon.svg" width="24"> Pangolin.js ESLint Config
 
 Shareable [ESLint](https://eslint.org) configuration for Pangolin.js based on [eslint-config-standard](https://github.com/standard/eslint-config-standard).
 
