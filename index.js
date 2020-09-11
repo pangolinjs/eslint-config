@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     require.resolve('eslint-config-standard')
   ],
-  parser: 'babel-eslint',
   env: {
     browser: true
   },
