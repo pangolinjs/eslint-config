@@ -8,8 +8,6 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-warning-comments': 'warn',
-    quotes: ['error', 'single', { allowTemplateLiterals: true }]
+    'no-warning-comments': 'warn'
   }
 }
