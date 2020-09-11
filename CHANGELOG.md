@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/pangolinjs/eslint-config/compare/v4.0.2...v5.0.0) (2020-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* The config no longer sets `babel-eslint` as the default parser. The consumer themselves should decide which parser will be used (or if at all). Switch to `@babel/eslint-parser` which replaces the now deprecated `babel-eslint`.
+
+### Features
+
+* Remove Babel parser ([366763c](https://github.com/pangolinjs/eslint-config/commit/366763ceb81e24abd2141c4734c2d6f6cfc73212))
+
 ### [4.0.2](https://github.com/pangolinjs/eslint-config/compare/v4.0.1...v4.0.2) (2020-09-01)
 
 ### [4.0.1](https://github.com/pangolinjs/eslint-config/compare/v4.0.0...v4.0.1) (2020-07-08)
