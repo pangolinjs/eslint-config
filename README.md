@@ -10,7 +10,6 @@ Install the configuration and all peer dependencies with one command:
 npm install --save-dev \
   @pangolinjs/eslint-config \
   eslint \
-  babel-eslint \
   eslint-config-standard \
   eslint-plugin-import \
   eslint-plugin-node \
