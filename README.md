@@ -13,8 +13,7 @@ npm install --save-dev \
   eslint-config-standard \
   eslint-plugin-import \
   eslint-plugin-node \
-  eslint-plugin-promise \
-  eslint-plugin-standard
+  eslint-plugin-promise
 ```
 
 ## Usage
@@ -78,4 +77,3 @@ ESLint has an extensive [list of rules](https://eslint.org/docs/rules/). Additio
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
-- [eslint-plugin-standard](https://github.com/standard/eslint-plugin-standard)
