@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/pangolinjs/eslint-config/compare/v5.0.0...v5.1.0) (2020-12-08)
+
+
+### Features
+
+* Make `console.log`s errors ([4b34c47](https://github.com/pangolinjs/eslint-config/commit/4b34c479a1c3290973bfca0284c4796977a32727))
+
 ## [5.0.0](https://github.com/pangolinjs/eslint-config/compare/v4.0.2...v5.0.0) (2020-09-11)
 
 
