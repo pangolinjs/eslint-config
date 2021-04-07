@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.0](https://github.com/pangolinjs/eslint-config/compare/v5.1.0...v5.2.0) (2021-04-07)
+
+
+### Features
+
+* Restrict usage of global "name" (Close [#6](https://github.com/pangolinjs/eslint-config/issues/6)) ([cd52f0a](https://github.com/pangolinjs/eslint-config/commit/cd52f0a5533032b1f6be4549d8f23d15714b6fea))
+
 ## [5.1.0](https://github.com/pangolinjs/eslint-config/compare/v5.0.0...v5.1.0) (2020-12-08)
 
 
