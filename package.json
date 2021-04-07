@@ -21,9 +21,6 @@
     "eslint",
     "pangolinjs"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "lint": "eslint --format codeframe .",
     "test": "eslint --print-config index.js",
