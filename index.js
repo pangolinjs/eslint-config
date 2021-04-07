@@ -8,6 +8,13 @@ module.exports = {
   },
   rules: {
     'no-console': 'error',
+    'no-restricted-globals': [
+      'error',
+      {
+        name: 'name',
+        message: 'Use local parameter instead.'
+      }
+    ],
     'no-warning-comments': 'warn'
   }
 }
