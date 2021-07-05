@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.3.0](https://github.com/pangolinjs/eslint-config/compare/v5.2.1...v5.3.0) (2021-07-05)
+
+
+### Features
+
+* Set ECMAScript version to latest ([06de7c7](https://github.com/pangolinjs/eslint-config/commit/06de7c77584a01cd480b1bd8d2879e6396e3b366))
+
 ### [5.2.1](https://github.com/pangolinjs/eslint-config/compare/v5.2.0...v5.2.1) (2021-06-18)
 
 ## [5.2.0](https://github.com/pangolinjs/eslint-config/compare/v5.1.0...v5.2.0) (2021-04-07)
