@@ -22,7 +22,7 @@
     "pangolinjs"
   ],
   "scripts": {
-    "lint": "eslint --format codeframe .",
+    "lint": "eslint .",
     "test": "eslint --print-config index.js",
     "release": "standard-version --sign"
   },
@@ -31,18 +31,18 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^7.30.0",
+    "eslint": "^8.1.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "standard-version": "^9.3.0"
+    "eslint-plugin-promise": "^5.1.1",
+    "standard-version": "^9.3.2"
   },
   "peerDependencies": {
-    "eslint": "^7.30.0",
+    "eslint": "^8.1.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^5.1.1"
   }
 }
