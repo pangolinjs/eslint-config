@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/pangolinjs/eslint-config/compare/v5.3.1...v6.0.0) (2022-03-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* `eslint-plugin-node` has been replaced with `eslint-plugin-n`.
+
+### Features
+
+* Update eslint-config-standard to v17 ([cbe71e3](https://github.com/pangolinjs/eslint-config/commit/cbe71e390b8c54340e655de45980889f7657ca05))
+
 ### [5.3.1](https://github.com/pangolinjs/eslint-config/compare/v5.3.0...v5.3.1) (2021-10-23)
 
 ## [5.3.0](https://github.com/pangolinjs/eslint-config/compare/v5.2.1...v5.3.0) (2021-07-05)
