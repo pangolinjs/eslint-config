@@ -1,42 +1,42 @@
 {
-  "name": "@pangolinjs/eslint-config",
-  "version": "6.0.0",
-  "description": "Shareable ESLint config for Pangolin.js",
-  "license": "Hippocratic-2.1",
-  "homepage": "https://github.com/pangolinjs/eslint-config",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pangolinjs/eslint-config"
-  },
-  "author": {
-    "name": "Fynn Becker",
-    "email": "post@fynn.be"
-  },
-  "bugs": {
-    "url": "https://github.com/pangolinjs/eslint-config/issues",
-    "email": "post@fynn.be"
-  },
-  "keywords": [
-    "eslint-config",
-    "eslint",
-    "pangolinjs"
-  ],
-  "scripts": {
-    "lint": "eslint .",
-    "test": "eslint --print-config index.js",
-    "release": "standard-version --sign"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "devDependencies": {
-    "eslint": "^8.27.0",
-    "eslint-config-standard": "^17.0.0",
-    "standard-version": "^9.5.0"
-  },
-  "peerDependencies": {
-    "eslint": "^8.27.0",
-    "eslint-config-standard": "^17.0.0"
-  }
+	"name": "@pangolinjs/eslint-config",
+	"version": "6.0.0",
+	"description": "Shareable ESLint config for Pangolin.js",
+	"license": "Hippocratic-2.1",
+	"homepage": "https://github.com/pangolinjs/eslint-config",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pangolinjs/eslint-config"
+	},
+	"author": {
+		"name": "Fynn Becker",
+		"email": "post@fynn.be"
+	},
+	"bugs": {
+		"url": "https://github.com/pangolinjs/eslint-config/issues",
+		"email": "post@fynn.be"
+	},
+	"keywords": [
+		"eslint-config",
+		"eslint",
+		"pangolinjs"
+	],
+	"scripts": {
+		"lint": "eslint .",
+		"test": "eslint --print-config index.js",
+		"release": "standard-version --sign"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"devDependencies": {
+		"eslint": "^8.27.0",
+		"eslint-config-standard": "^17.0.0",
+		"standard-version": "^9.5.0"
+	},
+	"peerDependencies": {
+		"eslint": "^8.27.0",
+		"eslint-config-standard": "^17.0.0"
+	}
 }
