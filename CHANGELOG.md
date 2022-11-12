@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/pangolinjs/eslint-config/compare/v6.0.0...v7.0.0) (2022-11-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* Missing new lines in arrays will cause an error.
+* Missing trailing commas will cause an error.
+* Unsorted imports and exports will cause an error.
+* Indentation with spaces will cause an error.
+
+### Features
+
+* Add simple-import-sort plugin ([97c7e86](https://github.com/pangolinjs/eslint-config/commit/97c7e86eed9875ab7897e59f1d8efb8c57814a5a))
+* Enforce consistent new lines in arrays ([8c2ba5c](https://github.com/pangolinjs/eslint-config/commit/8c2ba5ccf897aabc3c2e31ef9d1d02b364a71a2f))
+* Enforce trailing comma for multiline ([30979c0](https://github.com/pangolinjs/eslint-config/commit/30979c0adf2ce16be8316cb7a845f7fa58d22742))
+* Indent with tabs ([7c28411](https://github.com/pangolinjs/eslint-config/commit/7c28411bfad6ba226bce24c46a00a37ae2d66617))
+
 ## [6.0.0](https://github.com/pangolinjs/eslint-config/compare/v5.3.1...v6.0.0) (2022-03-26)
 
 
