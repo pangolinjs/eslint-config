@@ -31,18 +31,12 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^8.12.0",
-    "eslint-config-standard": "^17.0.0-1",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-n": "^15.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "standard-version": "^9.3.2"
+    "eslint": "^8.27.0",
+    "eslint-config-standard": "^17.0.0",
+    "standard-version": "^9.5.0"
   },
   "peerDependencies": {
-    "eslint": "^8.12.0",
-    "eslint-config-standard": "^17.0.0-1",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-n": "^15.1.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint": "^8.27.0",
+    "eslint-config-standard": "^17.0.0"
   }
 }
