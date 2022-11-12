@@ -2,7 +2,10 @@
 module.exports = {
 	root: true,
 	extends: [
-		require.resolve('eslint-config-standard')
+		'eslint-config-standard'
+	],
+	plugins: [
+		'eslint-plugin-simple-import-sort'
 	],
 	parserOptions: {
 		ecmaVersion: 'latest'
@@ -11,6 +14,7 @@ module.exports = {
 		browser: true
 	},
 	rules: {
+		// Built-in
 		indent: ['error', 'tab'],
 		'no-console': 'error',
 		'no-restricted-globals': [
@@ -21,6 +25,10 @@ module.exports = {
 			}
 		],
 		'no-tabs': 'off',
-		'no-warning-comments': 'warn'
+		'no-warning-comments': 'warn',
+
+		// simple-import-sort
+		'simple-import-sort/imports': 'error',
+		'simple-import-sort/exports': 'error'
 	}
 }
