@@ -15,6 +15,8 @@ module.exports = {
 	},
 	rules: {
 		// Built-in
+		'array-bracket-newline': ['error', 'consistent'],
+		'array-element-newline': ['error', 'consistent'],
 		'comma-dangle': ['error', 'always-multiline'],
 		indent: ['error', 'tab'],
 		'no-console': 'error',
