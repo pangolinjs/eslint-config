@@ -31,14 +31,14 @@
 		"index.js"
 	],
 	"devDependencies": {
-		"eslint": "^8.27.0",
+		"eslint": "^8.34.0",
 		"eslint-config-standard": "^17.0.0",
-		"eslint-plugin-simple-import-sort": "^8.0.0",
+		"eslint-plugin-simple-import-sort": "^10.0.0",
 		"standard-version": "^9.5.0"
 	},
 	"peerDependencies": {
-		"eslint": "^8.27.0",
+		"eslint": "^8.34.0",
 		"eslint-config-standard": "^17.0.0",
-		"eslint-plugin-simple-import-sort": "^8.0.0"
+		"eslint-plugin-simple-import-sort": "^10.0.0"
 	}
 }
